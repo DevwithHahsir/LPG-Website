@@ -1,5 +1,5 @@
 let valueDisplay=document.querySelectorAll(".count");
-let interval=3;
+let interval=5;
 valueDisplay.forEach((valueDisplay)=>{
     let startValue=0;
     let endValue=parseInt(valueDisplay.getAttribute("data-val"));
