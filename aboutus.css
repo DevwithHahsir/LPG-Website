@@ -338,25 +338,40 @@ option
     {
         
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
-    .heading
-    {
+    .about-container .heading{
+       
         font-size: small;
-        font-weight: 800;
+        width: 15rem;
+        font-weight: 600;
+        margin: 1rem;
     }
+
+ 
+        
 
     .descrip
     {
-        font-size: 1rem;
-        width: 20rem;
+        margin: 1rem;
+        font-size: x-small;
+        display: flex;
+        width: 15rem;
+    }
+    .about-container img
+    {
+        width: 10rem;
+
     }
 
-    .descrip-img img
-    {
-        padding: 2rem;
-    }
+
+
+
+
+
+
 
 
     .counter-container
