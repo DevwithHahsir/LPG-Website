@@ -328,6 +328,7 @@ option
     justify-content: center;
     align-items: center;
     margin: 3rem;
+    
 }
 
 
@@ -362,6 +363,8 @@ option
     align-items: center;
    
     margin-top: 2rem;
+    background-color: rgba(172, 172, 172, 0.151);
+
 }
 
 .product-container
@@ -397,7 +400,7 @@ option
 
 .counter-container
 {
-    border: 1px solid;
+    
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -426,4 +429,63 @@ option
 .count
 {
     font-size: xx-large;
+}
+
+
+/* FOOOOOOOOOOOOOOOOOOOOOOOOOTTTTTTTTTTEEEEERRRRRRRR */
+
+
+.fotter-container
+{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: #021526;
+}
+
+
+/* FOOOOOOOTTTTTT IIIIICCCCCONSSSS */
+.fotter
+{
+   
+    width: 15rem;
+    color: white;
+}
+
+.foot-img img
+{
+    width: 15rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.fotter .text, .fotter .text a
+
+{
+    font-size: medium;
+    color:white;
+}
+
+
+.copy-rights-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #021526;
+    width: 100%;
+    color: #3e7baa;
+}
+
+.copy-rights-container .text
+{
+    margin: 1rem;
+    font-size: small;
+}
+
+.fotter-container hr
+{
+    color: white;
 }

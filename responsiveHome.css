@@ -1,0 +1,178 @@
+@media (max-width:920px) {
+    
+
+    .navbar-toggler-icon
+
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .contact-container
+    {
+        display: none;
+    }
+
+    .jumbotron-img
+    {
+        display: none;
+    }
+    .shops-container
+    {
+        
+        display: flex;
+        margin-top: 0rem;
+    }
+
+    .featurette
+    {
+        
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .featurette-heading{
+        font-size: small;
+        width: 15rem;
+
+    }
+    .lead
+    {
+        font-size: x-small;
+        display: flex;
+        width: 15rem;
+    }
+    .featurette img
+    {
+        width: 10rem;
+
+    }
+
+
+    .cards-container
+    {
+       display: none;
+
+    }
+    
+
+    .l-autoGas b
+    { 
+        width: 100%;
+    }
+      
+    .product-card-container
+    {
+        border: none;
+        font-size: medium;
+    }
+
+    .product-container .heading
+    {
+    
+        font-size: small;
+        margin-top: 1rem;
+    }
+
+        
+         .product-container img
+         
+         {
+            width: 10rem;
+            display: flex;
+
+         }
+       
+
+         .counter-container
+         {
+            width:100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:center;
+            align-items: center;
+            
+
+         }
+
+
+         .counter-container .count , .text
+         {
+            font-size: small;
+            font-weight: 300;
+
+         }
+        .counter .text{
+            font-size: small;
+            font-weight: 200;
+            margin: 0rem;
+        
+        }
+
+
+
+
+
+
+
+
+
+
+        
+
+        .fotter-container{
+          
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            
+        }
+
+        .foot-img img
+        {
+            width: 4rem;
+        }
+
+       
+
+        .fotter .heading
+        {
+            font-size: x-small;
+        }
+        .fotter .text{
+            font-size: x-small;
+            margin-left: 0.3rem;
+            
+        }
+        
+        .fotter .text a{
+            
+            font-size: x-small;
+        }
+
+
+
+           
+            
+
+        .t4,.t5{
+            display: none;
+        }
+
+         .service, .shop
+        {
+            display: none;
+        }
+
+        
+        .copy-rights-container .text
+        {
+            font-size: xx-small;
+            font-weight: 100;
+        }
+
+
+      
+}
